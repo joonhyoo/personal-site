@@ -3,5 +3,33 @@ body {
   font-family: Roboto, Arial;
   margin: 0;
   padding-top: 60px;
-  background-color: rgb(248, 248, 248);
+  /* creates gradient background and then it doesn't move so when scrolling it looks swell */
+  background-image: linear-gradient(to right, rgb(0, 110, 255), rgb(89, 0, 255));
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
+  height: 100%;
+}
+
+html {
+  height: calc(100% - 60px);
+}
+/* Text links no longer underlined and blue*/
+a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }

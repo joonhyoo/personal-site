@@ -1,5 +1,5 @@
 .header {
-  height: 55px;
+  height: 60px;
   z-index: 100;
 
   display: flex;
@@ -11,9 +11,8 @@
   left: 0px;
   right: 0px;
 
-  background-color: rgb(129, 128, 124);
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
+  background-color: lightcoral;
+  border-bottom: 1px solid black;
 }
 
 .left-side {
@@ -25,7 +24,6 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: blue;
 }
 
 .github-icon-container,
@@ -38,20 +36,15 @@
 .github-icon,
 .linkedin-icon,
 .contact-button {
-  max-height: 40px;
-}
-
-.github-icon {
+  height: 40px;
   border-radius: 5px;
 }
 
 .contact-button {
   border: none;
-  border-radius: 5px;
-  height: 40px;
   padding: 0px 15px;
-  background-color: black;
   color: white;
+  background-color: black;
 }
 
 .contact-button:hover {

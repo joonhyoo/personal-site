@@ -1,0 +1,8 @@
+@import "blog.css";
+@import "general.css";
+@import "header.css";
+@import "projects.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+  font-family: 'Roboto', sans-serif;
+}
