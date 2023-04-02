@@ -2,7 +2,7 @@
 body {
   font-family: Roboto, Arial;
   margin: 0;
-  padding-top: 60px;
+  padding-top: 10vh;
   /* creates gradient background and then it doesn't move so when scrolling it looks swell */
   background-image: linear-gradient(to right, rgb(0, 110, 255), rgb(89, 0, 255));
   overscroll-behavior-y: none;
@@ -11,7 +11,7 @@ body {
 }
 
 html {
-  height: calc(100% - 60px);
+  height: calc(100% - 10vh);
 }
 /* Text links no longer underlined and blue*/
 a {

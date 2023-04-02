@@ -1,5 +1,6 @@
 .header {
-  height: 60px;
+  /* height: 60px; */
+  height: 10vh;
   z-index: 100;
 
   display: flex;
@@ -18,36 +19,50 @@
 .left-side {
   display: flex;
   align-items: center;
+  border: 5px solid black;
 }
 
 .right-side {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
+  border: 5px solid black;
 }
 
 .github-icon-container,
 .linkedin-icon-container,
-.contact-button-container {
+.contact-button-container,
+.jdev-logo-container,
+.about-button-container,
+.blog-button-container {
   display: flex;
   margin: 10px;
+  height: 100%;
+  align-items: center;
 }
 
 .github-icon,
 .linkedin-icon,
-.contact-button {
-  height: 40px;
+.contact-button,
+.jdev-logo,
+.about-button,
+.blog-button {
+  height: 70%;
   border-radius: 5px;
 }
 
-.contact-button {
+.contact-button,
+.about-button,
+.blog-button {
   border: none;
   padding: 0px 15px;
   color: white;
   background-color: black;
 }
 
-.contact-button:hover {
+.contact-button:hover,
+.about-button:hover,
+.blog-button:hover {
   background-color: white;
   color: black;
   transition: 300ms;
