@@ -6,13 +6,15 @@
 }
 
 .joon-dev-text {
+  opacity: 0;
   cursor: default;
   font-family: Londrina Outline;
   font-size: 200px;
   font-weight: 700;
   color: white;
   transition: all 150ms ease-in-out;
-  animation: fadeIn 3s;
+  animation: fadeIn 3s ease-in-out forwards;
+  animation-delay: 500ms;
 }
 
 @keyframes fadeIn {
