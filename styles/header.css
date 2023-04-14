@@ -1,6 +1,6 @@
 .header {
-  /* height: 60px; */
-  height: 10vh;
+  height: 80px;
+  /* height: 10vh; */
   z-index: 100;
 
   display: flex;
@@ -12,59 +12,43 @@
   left: 0px;
   right: 0px;
 
-  background-color: lightcoral;
+  background-color: #2C2C34;
   border-bottom: 1px solid black;
 }
 
 .left-side {
   display: flex;
   align-items: center;
-  border: 5px solid black;
 }
 
 .right-side {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 5px solid black;
 }
 
-.github-icon-container,
-.linkedin-icon-container,
-.contact-button-container,
-.jdev-logo-container,
-.about-button-container,
-.blog-button-container {
-  display: flex;
-  margin: 10px;
-  height: 100%;
-  align-items: center;
-}
-
-.github-icon,
-.linkedin-icon,
-.contact-button,
-.jdev-logo,
-.about-button,
-.blog-button {
-  height: 70%;
-  border-radius: 5px;
-}
-
-.contact-button,
-.about-button,
-.blog-button {
+.blog-button,
+.projects-button,
+.home-button {
+  font-family: Londrina Outline;
+  font-size: 65px;
+  color: #D8D8F6;
   border: none;
-  padding: 0px 15px;
-  color: white;
-  background-color: black;
+  background-color: rgb(0, 0, 0, 0);
+  margin: 0pc 10px;
+  transition: all 150ms ease-in-out;
 }
 
-.contact-button:hover,
-.about-button:hover,
-.blog-button:hover {
-  background-color: white;
-  color: black;
-  transition: 300ms;
+.blog-button:hover,
+.projects-button:hover,
+.home-button:hover {
   cursor: pointer;
+  transform: translate3d(0px, -2px, 0px);
+  text-shadow: 1px 1px 2px white;
+}
+
+.blog-button:active,
+.projects-button:active,
+.home-button:active {
+  transform: translate3d(0px, 0px, 0px);
 }

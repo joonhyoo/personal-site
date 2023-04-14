@@ -2,17 +2,16 @@
 body {
   font-family: Roboto, Arial;
   margin: 0;
-  padding-top: 10vh;
+  padding-bottom: 500px;
   /* creates gradient background and then it doesn't move so when scrolling it looks swell */
-  background-image: linear-gradient(to right, rgb(0, 110, 255), rgb(89, 0, 255));
-  overscroll-behavior-y: none;
-  overscroll-behavior-x: none;
+  background-color: #494850;
   height: 100%;
 }
 
-html {
-  height: calc(100% - 10vh);
+body::-webkit-scrollbar{
+  display: none;
 }
+
 /* Text links no longer underlined and blue*/
 a {
   color: black;
