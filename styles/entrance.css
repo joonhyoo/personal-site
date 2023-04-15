@@ -1,18 +1,17 @@
 .entrance-box {
-  margin: 200px auto;
-  padding: 0;
-  width: 50%;
-  text-align: center;
+  margin: 200px auto; /* 200 px above and below, and center horizontally */
+  width: 50%; /* 50% width of display */
+  text-align: center; /* centers items inside horizontally*/
 }
 
 .joon-dev-text {
   opacity: 0;
   cursor: default;
-  font-family: Londrina Outline;
   font-size: 200px;
+  font-size: 13.5vw;
+  font-family: Londrina Outline;
   font-weight: 700;
   color: white;
-  transition: all 150ms ease-in-out;
   animation: fadeIn 3s ease-in-out forwards;
   animation-delay: 500ms;
 }
