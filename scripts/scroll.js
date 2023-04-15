@@ -1,6 +1,11 @@
-const scrollBtn = document.querySelector('#arrow');
-const scrollTarget = document.querySelector('#project-flex-container');
+const arrowBtn = document.querySelector('#arrow');
+const projectsBtn = document.querySelector('.projects-button');
+const projects = document.querySelector('#project-flex-container');
 
-scrollBtn.addEventListener('click', () => {
-  scrollTarget.scrollIntoView({ behavior: 'smooth' });
+arrowBtn.addEventListener('click', () => {
+  projects.scrollIntoView({ behavior: 'smooth' });
+});
+
+projectsBtn.addEventListener('click', () => {
+  projects.scrollIntoView({ behavior: 'smooth' });
 });
