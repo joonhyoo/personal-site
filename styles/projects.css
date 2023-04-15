@@ -1,8 +1,14 @@
+#project-section {
+  position: absolute;
+  height: 5px;
+  left: 50%;
+  bottom: -10px;
+}
+
 #project-flex-container {
   display: flex;
   flex-direction: row;
   /* if you're having issues with the page being a bit longer it's this border dw */
-  border: 1px solid black;
   justify-content: space-around;
   align-items: center;
   text-align: center;
