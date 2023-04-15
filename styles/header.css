@@ -27,9 +27,14 @@
   align-items: center;
 }
 
+.h-button {
+  display: none;
+}
+
 .blog-button,
 .projects-button,
-.home-button {
+.home-button,
+.h-button {
   font-family: Londrina Outline;
   font-size: 65px;
   color: #D8D8F6;
@@ -51,4 +56,13 @@
 .projects-button:active,
 .home-button:active {
   transform: translate3d(0px, 0px, 0px);
+}
+
+@media screen and (max-width: 600px) {
+  .home-button {
+    display: none;
+  }
+  .h-button {
+    display: block;
+  }
 }
