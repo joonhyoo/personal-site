@@ -1,19 +1,26 @@
 #entrance-box {
-  margin: 200px auto 500px; /* 200 px above and below, and center horizontally */
-  width: 50%; /* 50% width of display */
+  height: 120vh;
   text-align: center; /* centers items inside horizontally*/
 }
 
 #joon-dev-text {
+  position: relative;
+  top: 25vh;
   opacity: 0;
   cursor: default;
-  font-size: 200px;
-  font-size: 13.5vw;
+  font-size: 15vw;
   font-family: Londrina Outline;
   font-weight: 700;
   color: white;
   animation: fadeIn 3s ease-in-out forwards;
   animation-delay: 500ms;
+}
+
+@media screen and (orientation: portrait) {
+  #joon-dev-text {
+    top: 25vh;
+    font-size: 20vw;
+  }
 }
 
 @keyframes fadeIn {
