@@ -1,14 +1,18 @@
 #project-section {
-  position: absolute;
-  height: 5px;
-  left: 50%;
-  bottom: -10px;
+  height: 10%;
+  width: 100%;
+  margin: 20px 0px 40px;
+  text-align: center;
+}
+
+#projects-text {
+  color: white;
+  font: 600 normal 5em 'Londrina Outline';
 }
 
 #project-flex-container {
   display: flex;
   flex-direction: row;
-  /* if you're having issues with the page being a bit longer it's this border dw */
   justify-content: space-around;
   align-items: center;
   text-align: center;
@@ -18,7 +22,7 @@
   width: 23%;
   height: 70vh;
   border: 1px solid black;
-  background-color: pink;
+  background-color: none;
   padding: 10px;
   /* This creates cool shadow clicking effect*/
   box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);

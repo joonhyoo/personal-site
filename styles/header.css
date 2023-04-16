@@ -1,6 +1,5 @@
 .header {
   height: 10vh;
-  /* height: 10vh; */
   z-index: 100;
 
   display: flex;
@@ -13,7 +12,13 @@
   right: 0px;
 
   background-color: #2C2C34;
+  transition: 150ms ease-in-out;
   border-bottom: 1px solid black;
+}
+
+/* Hidden header state */
+.header-hidden {
+  transform: translateY(-10vh);
 }
 
 .left-side {
