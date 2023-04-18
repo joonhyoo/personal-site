@@ -4,7 +4,7 @@
 
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
   position: fixed;
   top: 0px;
@@ -21,25 +21,8 @@
   transform: translateY(-10vh);
 }
 
-.left-side {
-  display: flex;
-  align-items: center;
-}
-
-.right-side {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.h-button {
-  display: none;
-}
-
 .blog-button,
-.projects-button,
-.home-button,
-.h-button {
+.projects-button {
   border: 1px solid black;
   font-family: Londrina Outline;
   font-size: 8vh;
@@ -51,25 +34,13 @@
 }
 
 .blog-button:hover,
-.projects-button:hover,
-.home-button:hover {
+.projects-button:hover {
   cursor: pointer;
   transform: translate3d(0px, -2px, 0px);
   text-shadow: 1px 1px 2px white;
 }
 
 .blog-button:active,
-.projects-button:active,
-.home-button:active {
+.projects-button:active {
   transform: translate3d(0px, 0px, 0px);
-}
-
-@media screen and (orientation: portrait) {
-  .home-button {
-    display: none;
-  }
-
-  .h-button {
-    display: block;
-  }
 }
