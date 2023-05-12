@@ -25,7 +25,7 @@
 .projects-button {
   border: 1px solid black;
   font-family: Londrina Outline;
-  font-size: 8vh;
+  font-size: 12vw;
   color: #D8D8F6;
   border: none;
   background-color: rgb(0, 0, 0, 0);
@@ -43,4 +43,11 @@
 .blog-button:active,
 .projects-button:active {
   transform: translate3d(0px, 0px, 0px);
+}
+
+@media (orientation: landscape) {
+  .blog-button,
+  .projects-button {
+    font-size: 8vh;
+  }
 }
